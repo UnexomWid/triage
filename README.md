@@ -23,4 +23,4 @@ If a browser can display it, it will work with Triage.
 
 # License <a href="https://github.com/UnexomWid/triage/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
 
-ExtOrg was created by [UnexomWid](https://uw.exom.dev). It is licensed under the [MIT](https://github.com/UnexomWid/triage/blob/master/LICENSE) license.
+Triage was created by [UnexomWid](https://uw.exom.dev). It is licensed under the [MIT](https://github.com/UnexomWid/triage/blob/master/LICENSE) license.
