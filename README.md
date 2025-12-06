@@ -20,6 +20,28 @@ If a browser can display it, it will work with Triage.
 
 ![Example](public/triage.gif)
 
+## Starting file
+
+You can specify the filename from which Triage should start. It's like a checkpoint.
+
+Say you close the program on accident. When you re-open it, you can enter the last file name that you saw, or the last file name you accepted if you don't remember that.
+
+Nobody likes to start from scratch.
+
+## Filters
+
+You can filter which kind of files you want to sift through.
+
+The filter can be a normal filename, and can also contain wildcards (`*` and `?`). It doesn't support regex, however.
+
+Examples: `*.png`, `grade_*.pdf`, `stuff.*`
+
+## Does it work with subfolders?
+
+No. Maybe in the future. Subfolders can add a lot of complexity (*e.g.* clashing file names).
+
+Triage is made for those massive folders with thousands of files, like group chat archives.
+
 
 # License <a href="https://github.com/UnexomWid/triage/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
 
