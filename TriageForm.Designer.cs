@@ -76,6 +76,7 @@
             VerdictButton.TabIndex = 4;
             VerdictButton.Text = "^ Accept ^";
             VerdictButton.UseVisualStyleBackColor = true;
+            VerdictButton.Click += VerdictButton_Click;
             // 
             // WebView
             // 

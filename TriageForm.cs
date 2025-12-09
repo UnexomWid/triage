@@ -55,6 +55,7 @@ namespace Triage {
 
         void Display() {
             LoadFile(cache[index]);
+            Text = $"Triage - {index + 1}";
         }
 
         void Next() {
@@ -187,6 +188,15 @@ namespace Triage {
 
         private void NextButton_Click(object sender, System.EventArgs e) {
             Next();
+        }
+
+        private void VerdictButton_Click(object sender, EventArgs e) {
+            // Horrible, but no one will directly click on the button anyways
+            if (VerdictButton.Text.Contains("Accept")) {
+                Accept();
+            } else {
+                Reject();
+            }
         }
     }
 }

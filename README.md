@@ -12,6 +12,8 @@ Accepted files are copied to another folder that you choose. In the end, that fo
 
 If you accepted a file by mistake, just go back and `v` reject it.
 
+Triage requires **.Net 9.0**.
+
 ## Supported files
 
 Triage supports many file types. It leverages Microsoft's [WebView2](https://developer.microsoft.com/en-us/Microsoft-edge/webview2/) for preview.
